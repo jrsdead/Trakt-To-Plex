@@ -14,20 +14,20 @@ Features
 Usage
 =====
 
-Usage: plex-trakt-sync.py [options]
+    Usage: plex-trakt-sync.py [options]
 
-This script connects to Trakt.tv and reports the watched content to a Plex media center server
+    This script connects to Trakt.tv and reports the watched content to a Plex media center server
 
-Options:
-  --version             show program's version number and exit
-  -h, --help            show this help message and exit
-  -H HOST, --host=HOST  Hostname or IP of plex server (default: localhost)
-  -P PORT, --port=PORT  Port of the plex server (default: 32400)
-  -u USERNAME, --username=USERNAME
-                        trakt.tv username
-  -p PASSWORD, --password=PASSWORD
-                        trakt.tv password
-  -k API-KEY, --key=API-KEY
-                        trakt.tv API key
-  -v, --verbose         Print more verbose debugging informations.
+    Options:
+      --version             show program's version number and exit
+      -h, --help            show this help message and exit
+      -H HOST, --host=HOST  Hostname or IP of plex server (default: localhost)
+      -P PORT, --port=PORT  Port of the plex server (default: 32400)
+      -u USERNAME, --username=USERNAME
+                            trakt.tv username
+      -p PASSWORD, --password=PASSWORD
+                            trakt.tv password
+      -k API-KEY, --key=API-KEY
+                            trakt.tv API key
+      -v, --verbose         Print more verbose debugging informations.
 
