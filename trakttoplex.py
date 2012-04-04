@@ -74,16 +74,6 @@ class TraktToPlex(object):
             help='trakt.tv password')
 
         parser.add_option(
-            '--no-movies', dest='sync_movies', action='store_false',
-            default=True,
-            help='Do not sync watched movies.')
-
-        parser.add_option(
-            '--no-shows', dest='sync_shows', action='store_false',
-            default=True,
-            help='Do not sync watched shows.')
-
-        parser.add_option(
             '-k', '--key', dest='trakt_key',
             metavar='API-KEY',
             help='trakt.tv API key')
